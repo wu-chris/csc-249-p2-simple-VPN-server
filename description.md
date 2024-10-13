@@ -8,7 +8,7 @@ The client sends a message to the VPN containing both the server address and the
 
 Message is sent in the form of:
 
-<server_IP>:<server_port> <operation> <operand1> <operand2>
+<server_IP> : <server_port> <operation> <operand1> <operand2>
 
 "Error Input" if the VPN is failed to parse the input message from client.
 
